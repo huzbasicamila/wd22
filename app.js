@@ -23,3 +23,8 @@ let header = document.querySelector('header');
 window.addEventListener('scroll' , ()=> {
     header.classList.toggle('shadow', window.scrollY>0);
 })
+
+fetch('https://ptf-web-dizajn-2022.azurewebsites.net/api/Cars')
+    .then(response=> {
+            console.log(response);
+    })

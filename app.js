@@ -12,6 +12,11 @@ document.querySelector('#menu-icon').onclick = ()=> {
     search.classList.remove('active');
 }
 
+window.onscroll=()=>{
+    menu.classList.toggle('active');
+    search.classList.remove('active');
+};
+
 //Header
 let header = document.querySelector('header');
 

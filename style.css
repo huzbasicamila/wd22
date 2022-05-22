@@ -316,3 +316,40 @@ header.shadow #search-icon{
         clip-path: circle(144% at 0% 0%);
     }
 }
+    @media (max-width:727px) {
+        .heading span {
+            font-size: 0.9rem;
+        }
+        .heading h2{
+            font-size: 1.4rem;
+        }
+        .about {
+            flex-direction: column-reverse;
+        }
+        .about-text {
+            text-align: center;
+        }
+        .about-text h2 {
+            font-size: 1.4rem;
+        }
+    }
+@media (max-width:607px) {
+    .footer-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:360px) {
+    .search-box input {
+        padding: 11px;
+    }
+    .home{
+        min-height: 500px;
+    }
+    .home-text h1{
+        font-size: 2rem;
+    }
+    .home-text p br{
+        display: contents;
+    }
+}

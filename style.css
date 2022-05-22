@@ -335,7 +335,7 @@ header.shadow #search-icon{
     }
 @media (max-width:607px) {
     .footer-container {
-        display: grid;
+        display: grid; 
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -344,7 +344,7 @@ header.shadow #search-icon{
         padding: 11px;
     }
     .home{
-        min-height: 500px;
+        min-height: 499px;
     }
     .home-text h1{
         font-size: 2rem;
